@@ -44,6 +44,7 @@ export default function MemoList() {
           </TouchableOpacity>
         </View>
       </TouchableOpacity>
+
       <TouchableOpacity
         style={styles.memoListItem}
         onPress={() => { navigation.navigate('MemoDetail'); }}
